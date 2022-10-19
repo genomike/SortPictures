@@ -39,7 +39,7 @@ namespace Fotos
             catch (Exception ex)
             {
 #if DEBUG
-                throw new Exception();
+                throw ;
 #endif
                 Console.WriteLine(ex.Message);
                 Console.ReadKey();
